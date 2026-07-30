@@ -297,19 +297,14 @@ export default function App() {
       <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'glass-nav py-3' : 'bg-transparent py-5'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center">
           
-          {/* Logo Brand */}
-          <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#E093A3]/20 to-[#E093A3]/5 border border-[#E093A3]/30 flex items-center justify-center text-[#E093A3] group-hover:scale-105 transition-transform">
-              <Sparkles size={20} strokeWidth={1.5} />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-playfair text-xl sm:text-2xl font-bold tracking-wide text-white group-hover:text-[#E093A3] transition-colors">
-                {DADOS.nome}
-              </span>
-              <span className="text-[10px] font-montserrat tracking-[3px] uppercase text-[#E093A3]">
-                {DADOS.titulo}
-              </span>
-            </div>
+          {/* Logo Brand Script (Great Vibes White) */}
+          <a href="#" className="flex flex-col group py-1">
+            <span className="font-greatvibes text-3xl sm:text-4xl font-normal text-white group-hover:text-[#E093A3] transition-colors leading-none tracking-wide">
+              {DADOS.nome}
+            </span>
+            <span className="text-[9px] sm:text-[10px] font-montserrat tracking-[3px] uppercase text-[#E093A3] mt-1">
+              {DADOS.titulo}
+            </span>
           </a>
           
           {/* Desktop Navigation */}
