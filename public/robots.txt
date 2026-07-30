@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mayara-balbino.vercel.app/sitemap.xml
