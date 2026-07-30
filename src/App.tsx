@@ -447,8 +447,8 @@ export default function App() {
           </div>
           <div className="flex flex-col items-center justify-center gap-1">
             <Star className="text-[#E093A3] mb-1 fill-[#E093A3]" size={28} strokeWidth={1.5} />
-            <span className="font-playfair text-2xl sm:text-3xl font-bold text-white">4.9 / 5.0</span>
-            <span className="text-[11px] text-gray-400 font-montserrat uppercase tracking-wider">Avaliação das Clientes</span>
+            <span className="font-playfair text-2xl sm:text-3xl font-bold text-white">Alta</span>
+            <span className="text-[11px] text-gray-400 font-montserrat uppercase tracking-wider">Satisfação & Fidelidade</span>
           </div>
         </div>
       </section>
@@ -934,7 +934,7 @@ export default function App() {
               <Star size={16} className="fill-amber-400" />
               <Star size={16} className="fill-amber-400" />
             </div>
-            <span><strong>4.9 / 5.0 estrelas</strong> — Avaliações autênticas de clientes em Colombo</span>
+            <span><strong>100% de Aprovação</strong> — Depoimentos autênticos enviados via WhatsApp</span>
           </div>
 
         </div>
